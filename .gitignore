@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+backend/beybladers.db
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+# OS/editor
+.DS_Store
+.vscode/

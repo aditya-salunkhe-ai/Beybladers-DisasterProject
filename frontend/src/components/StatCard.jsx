@@ -1,0 +1,1 @@
+export default function StatCard({icon:Icon,value,label,accent}){return <div className={`stat ${accent||''}`}><div><span className="statLabel">{label}</span><strong>{value ?? '—'}</strong></div><div className="statIcon"><Icon size={22}/></div></div>}
